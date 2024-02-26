@@ -11,4 +11,11 @@ Main Function: The main function serves as the entry point of the program. It us
 To use the Lambda Expression Interpreter, provide an input lambda expression as a command-line argument when running the program. The program will tokenize the input, parse it into an AST, and evaluate the expression, printing the result.
 
 # Supported Lambda Expression Features
-The interpreter supports the following features in lambda expressions: Lambda functions defined with lambda. Variable names containing lowercase letters [a-z]. Lambda function application using parentheses (lambda ...). Concatenation using ++. Summation using +. Numeric values [0-9]+.
+The interpreter accommodates the following features within lambda expressions:
+- Lambda functions defined using the "lambda" keyword.
+- Variable names containing lowercase letters [a-z].
+- Lambda function application using parentheses (lambda ...).
+- Concatenation using the "++" operator.
+- Summation using the "+" operator.
+- Numeric values [0-9]+.
+
